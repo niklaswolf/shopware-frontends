@@ -1,5 +1,19 @@
 # @shopware/api-client
 
+## 0.6.0
+
+### Minor Changes
+
+- [#560](https://github.com/shopware/frontends/pull/560) [`9643e56`](https://github.com/shopware/frontends/commit/9643e56dafba9282b75c12c96b2afb3a4738f86e) Thanks [@patzick](https://github.com/patzick)! - [createAdminAPIClient] ability to pass optional field `credentials` to be used as authentication method before invoking any Admin API endpoint.
+
+### Patch Changes
+
+- [#567](https://github.com/shopware/frontends/pull/567) [`1583a7a`](https://github.com/shopware/frontends/commit/1583a7ae0d68b72fb362b625e1634e03bad68110) Thanks [@patzick](https://github.com/patzick)! - Export default API types to be compatible with the `bundler` mode resolution in `tsconfig`
+
+- [#557](https://github.com/shopware/frontends/pull/557) [`97d2859`](https://github.com/shopware/frontends/commit/97d2859e4dcbdc563200f2f64d1a20880b675d87) Thanks [@patzick](https://github.com/patzick)! - Added `Accept: application/json` default header to get only JSON responses.
+
+- [`89a97a4`](https://github.com/shopware/frontends/commit/89a97a45ae4a58616e41f63e9884a2a67f0a6ce8) Thanks [@patzick](https://github.com/patzick)! - fix default types
+
 ## 0.5.0
 
 ### Minor Changes
